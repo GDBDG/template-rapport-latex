@@ -1,0 +1,48 @@
+% !------------------------------ Les indispensables ------------------
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%! ---------------------Coloration + décors
+
+\usepackage[tables, svgnames]{xcolor} %!doit être chargé avant les packegs qui import xcolor (ex : pgfgantt) % Donne des couleurs par défaut 
+
+
+%! --------------- Entete et mise en page------------------------------
+\usepackage{geometry} % permet de configurer les marges http://texdoc.net/texmf-dist/doc/latex/geometry/geometry.pdf
+
+\usepackage{lastpage}% Pour avoir le nombre de page dans le header https://www.ctan.org/pkg/lastpage
+ % donne un gabarit des marges http://web.mit.edu/texsrc/source/latex/layouts/layman.pdf (dispensable pour un doc lambda)
+\usepackage{fancyhdr} % Entete et pied de page https://aurelienpierre.com/wp-content/uploads/fancyhdr_fr.pdf
+ % permet de changer l'interligne (\begin{onehalfspace} ou {doublespace}) https://ctan.org/tex-archive/macros/latex/contrib/setspace
+ % Permet de mettre des espaces correctement dans des nouvelles commandes avec \xspace
+
+ %http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/tocloft/tocloft.pdf pour bidouiller le sommaire
+ % pour gérer les arguments vides de commande https://ctan.org/pkg/ifmtarg
+
+
+
+%!-------------------------- Ajout d'images 
+
+% Pour ajouter des images
+%\usepackage{slashbox} % permet d'utiliser \backslashbox{Texte dessous}{Texte dessus} pour les tableaux (TO INSTALL)
+
+% !---------------------------- Fichier sources code
+
+ % Permet d'utiliser listings en utf8
+
+% !----------------------------- Les tableaux ------------------------%
+
+%!----------------------------- Les maths de bases
+
+%\usepackage{amsfonts} % Pour indicatrice https://www.ctan.org/pkg/amsfonts (pas utilisé, à étudier)
+%http://mirrors.ircam.fr/pub/CTAN/macros/latex/contrib/etoolbox/etoolbox.pdf Obscur, pour definir commandes %? Se renseigner
+
+%! ---------------------------Figures ----------------------------
+
+%!---------------------------- Utiles pour le latex
+
+%!------------------------------Autres------------------
+
+%!---------------------------------hyperref (à mettre en dernier)% !------------------------- Les miens -------------------------------
+
